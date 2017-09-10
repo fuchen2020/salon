@@ -1,0 +1,14 @@
+平台(模块)： 一律用大驼峰  如：后台 Admin     前台 Home
+
+控制器（类）：一律用大驼峰，与所要操作数据库的表名一致， 如： salon_staff表的控制器名则为  StaffController.class.php 
+
+模型： 一律用大驼峰，与所要操作数据库的表名一致， 如： salon_staff表的控制器名则为  StaffModel.class.php 
+
+方法：一律小驼峰，要求用英文，见名知义， 如：用户添加 :userAdd    员工添加: staffAdd 
+
+
+
+
+文件上传文件夹路径需要自动生成；格式为：  Uploads/功能模块名/日期（年月日)/图片名称.jpg
+
+
